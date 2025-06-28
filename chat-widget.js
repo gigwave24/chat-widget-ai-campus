@@ -545,7 +545,7 @@
             welcomeText: '',
             responseTimeText: '',
             poweredBy: {
-                text: 'Powered PORTMAN AI',
+                text: 'Powered by PORTMAN AI',
                 link: 'https://portman.university/'
             }
         },
