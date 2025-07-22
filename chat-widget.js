@@ -350,7 +350,7 @@
         }
 
         .chat-assist-widget .chat-launcher.right-side {
-            right: 20px;
+            right: 98px;
         }
 
         .chat-assist-widget .chat-launcher.left-side {
