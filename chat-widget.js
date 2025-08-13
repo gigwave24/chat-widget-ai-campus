@@ -67,12 +67,10 @@
 
            /* Mobile-specific styles */
     @media (max-width: 768px) {
-        .chat-assist-widget .chat-window {
-            width: 80vw; /* Use 90% of viewport width for flexibility */
-            max-width: 340px; /* Cap the width for larger phones */
-            height: 60vh; /* Use 70% of viewport height */
-            max-height: 500px; /* Cap the height */
-            bottom: 70px; /* Reduce bottom offset for better fit */
+        .chat-assist-widget .user-registration {
+            transform: translate(-50%, -50%) !important; /* Ensure centering */
+            padding: 16px; /* Slightly reduce padding for better fit */
+            max-width: 90%; /* Ensure it fits within viewport */
         }
 
         .chat-assist-widget .chat-window.right-side {
@@ -537,11 +535,10 @@
         }
 
         .chat-assist-widget .registration-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--chat-color-text);
-            margin-bottom: 16px;
-            line-height: 1.3;
+            font-size: 16px;
+            text-align: center; /* Explicitly center the title */
+            margin: 0 auto 16px; /* Center with auto margins and maintain spacing */
+            width: 100%; /* Ensure full width for consistent alignment */
         }
 
         .chat-assist-widget .registration-form {
