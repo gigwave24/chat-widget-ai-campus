@@ -67,75 +67,84 @@
 
            /* Mobile-specific styles */
     @media (max-width: 768px) {
+    .chat-assist-widget .chat-window {
+            width: 70vw; /* Reduced from 80vw */
+            max-width: 300px; /* Reduced from 340px */
+            height: 50vh; /* Reduced from 60vh */
+            max-height: 450px; /* Reduced from 500px */
+            bottom: 60px; /* Slightly reduce bottom offset */
+        }
         .chat-assist-widget .user-registration {
             transform: translate(-50%, -50%) !important; /* Ensure centering */
-            padding: 16px; /* Slightly reduce padding for better fit */
-            max-width: 90%; /* Ensure it fits within viewport */
+            padding: 12px; /* Further reduce padding */
+            max-width: 85%; /* Slightly smaller to fit reduced window */
         }
 
         .chat-assist-widget .chat-window.right-side {
-            right: 10px; /* Adjust for smaller screens */
+            right: 8px; /* Adjust for smaller screens */
         }
 
         .chat-assist-widget .chat-window.left-side {
-            left: 10px; /* Adjust for smaller screens */
+            left: 8px; /* Adjust for smaller screens */
         }
 
         .chat-assist-widget .chat-header {
-            padding: 12px; /* Reduce padding */
+            padding: 10px; /* Reduce padding */
         }
 
         .chat-assist-widget .chat-header-title {
-            font-size: 14px; /* Smaller font size */
+            font-size: 13px; /* Smaller font size */
         }
 
         .chat-assist-widget .chat-welcome-title {
-            font-size: 18px; /* Smaller welcome title */
-            margin-bottom: 16px;
+            font-size: 16px; /* Slightly smaller */
+            margin-bottom: 12px; /* Reduced spacing */
         }
 
         .chat-assist-widget .chat-start-btn {
-            padding: 12px 16px; /* Smaller button padding */
-            font-size: 14px; /* Smaller font size */
+            padding: 10px 14px; /* Smaller padding */
+            font-size: 13px; /* Smaller font */
         }
 
         .chat-assist-widget .chat-messages {
-            padding: 16px; /* Reduce padding */
+            padding: 12px; /* Reduce padding */
         }
 
         .chat-assist-widget .chat-bubble {
-            font-size: 13px; /* Smaller text in chat bubbles */
-            padding: 12px 14px; /* Smaller padding */
+            font-size: 12px; /* Smaller text */
+            padding: 10px 12px; /* Smaller padding */
         }
 
         .chat-assist-widget .chat-textarea {
-            font-size: 13px; /* Smaller textarea font */
-            padding: 12px 14px; /* Adjust padding */
+            font-size: 12px; /* Smaller font */
+            padding: 10px 12px; /* Smaller padding */
+            min-height: 40px; /* Adjust to fit smaller box */
         }
 
         .chat-assist-widget .chat-button-area button,
         .chat-assist-widget .chat-submit {
-            width: 40px; /* Smaller buttons */
-            height: 40px;
-            font-size: 16px; /* Smaller icons */
+            width: 36px; /* Smaller buttons */
+            height: 36px;
+            font-size: 14px; /* Smaller icons */
         }
 
         .chat-assist-widget .chat-launcher {
-            height: 48px; /* Smaller launcher button */
-            padding: 0 16px 0 12px;
+            height: 44px; /* Smaller launcher button */
+            padding: 0 14px 0 10px;
         }
 
         .chat-assist-widget .chat-launcher-text {
-            font-size: 14px; /* Smaller text */
+            font-size: 13px; /* Smaller text */
         }
 
         .chat-assist-widget .registration-title {
-            font-size: 16px; /* Smaller registration title */
+            font-size: 14px; /* Smaller registration title */
+            margin: 0 auto 12px;
         }
 
         .chat-assist-widget .form-input {
-            padding: 10px 12px; /* Smaller input padding */
-            font-size: 13px; /* Smaller font */
+            padding: 8px 10px; /* Smaller input padding */
+            font-size: 12px; /* Smaller font */
         }
 
         .chat-assist-widget .submit-registration {
@@ -1062,3 +1071,4 @@
         });
     });
 })();
+
