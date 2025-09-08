@@ -70,7 +70,7 @@
     .chat-assist-widget .chat-window {
         width: 75vw; /* Slightly larger than previous compact version */
         max-width: 320px; /* Increased from 300px */
-        height: 60vh; /* Slightly larger than previous */
+        height: 65vh; /* Slightly larger than previous */
         max-height: 480px; /* Increased from 450px */
         bottom: 65px; /* Adjusted offset for balance */
     }
