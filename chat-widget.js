@@ -72,7 +72,7 @@
         max-width: 320px; /* Increased from 300px */
         height: 65vh; /* Slightly larger than previous */
         max-height: 480px; /* Increased from 450px */
-        bottom: 65px; /* Adjusted offset for balance */
+        bottom: 68px; /* Adjusted offset for balance */
     }
 
     .chat-assist-widget .user-registration {
